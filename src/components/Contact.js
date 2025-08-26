@@ -20,7 +20,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-gray-800 text-lg">Phone</h3>
-                <p className="text-green-600 font-semibold text-lg">90620 1013</p>
+                <p className="text-green-600 font-semibold text-lg">9069201013</p>
               </div>
             </div>
             <div className="flex items-center space-x-6 p-6 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl hover:shadow-lg transition-all border border-green-100">
@@ -38,8 +38,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-gray-800 text-lg">Website</h3>
-                <a href="https://www.venusecomcare.in" target="_blank" rel="noopener noreferrer" className="text-green-600 font-semibold hover:text-green-700 transition-colors">
-                  www.venusecomcare.in
+                <a href="https://www.venusecomecare.in" target="_blank" rel="noopener noreferrer" className="text-green-600 font-semibold hover:text-green-700 transition-colors">
+                  www.venusecomecare.in
                 </a>
               </div>
             </div>
