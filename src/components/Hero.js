@@ -25,9 +25,11 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
         <div className="animate-fade-in-up" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           <div className="mb-12">
-            <div className="w-24 h-24 mx-auto mb-8 bg-gradient-to-br from-gray-300 via-gray-100 to-gray-400 rounded-2xl shadow-2xl flex items-center justify-center border-2 border-gray-200">
-              <span className="text-gray-700 font-bold text-4xl" style={{ fontFamily: 'serif', textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>V</span>
-            </div>
+            <img 
+              src="/venuslogo.png" 
+              alt="Venus Logo" 
+              className="w-24 h-24 mx-auto mb-8 rounded-2xl shadow-2xl border-2 border-gray-200"
+            />
             
             <h1 className="text-5xl md:text-8xl font-bold text-gray-800 mb-6 leading-tight">
               VENUS

@@ -21,10 +21,13 @@ const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
+          {/* Logo Section */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-gray-300 via-gray-100 to-gray-400 rounded-xl shadow-lg flex items-center justify-center border border-gray-200">
-              <span className="text-gray-700 font-bold text-xl" style={{ fontFamily: 'serif', textShadow: '1px 1px 2px rgba(0,0,0,0.3)' }}>V</span>
-            </div>
+            <img 
+              src="/venuslogo.png" 
+              alt="Venus Logo" 
+              className="w-12 h-12 rounded-xl shadow-lg border border-gray-200"
+            />
             <div>
               <span className="text-2xl font-bold text-gray-800">VENUS</span>
               <div className="text-sm text-green-600 font-medium tracking-wider">E-COM CARE</div>
