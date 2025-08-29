@@ -11,7 +11,6 @@ const Contact = () => {
             Ready to start your e-commerce journey? Contact us today!
           </p>
         </div>
-
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="flex items-center space-x-6 p-6 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl hover:shadow-lg transition-all border border-green-100">
@@ -57,7 +56,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
           <div className="bg-gradient-to-br from-green-600 to-emerald-600 rounded-2xl p-8 text-white shadow-2xl">
             <h3 className="text-2xl font-bold mb-8 text-center">Send us a message</h3>
             <form className="space-y-6">
